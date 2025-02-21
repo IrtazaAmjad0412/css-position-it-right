@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  height: auto;
 }
 
 .content-container {
@@ -73,7 +74,7 @@ header.exercise-header {
 }
 
 .top-nav .back-button a:before {
-  content: '\2190';
+  content: "\2190";
 }
 
 .top-nav .back-button a:hover {
